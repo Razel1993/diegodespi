@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;0,900;1,100;1,400&display=swap');
+*{ 
+    margin: 0px;
+    padding:  0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    
+
+}
+section{
+    min-height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.60),rgba(0,0,0,0.60)), url(good.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    border-top-color: black;
+    width: max-content;
+    border: 0cap;
+}
+.container{
+    width: 100%;
+    margin: auto;
+    
+}
+nav{
+    height: 80px;
+}
+nav h1{
+    float: left;
+    line height: 80px;
+    font: large;
+    color: #fff;
+    padding: 30px 45px;
+    
+
+}
+nav ul{
+    float: right;
+    line-height: 80px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 0px 5px;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 7px 8px;
+}
+nav ul li a:hover{
+    background-color: #eb7620;
+transition: 0.5s ease;
+}
+nav ul li :active{
+    background-color: #eb7620;
+}
+.article{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    transform: translateY(25vh);
+    float: right;
+}
+.article h1{
+    font-size: 36px;
+    color: #ab5818;
+    letter-spacing: 1.5px;
+    font-weight: 800;
+    margin border-bottom: 25px;
+}
+.article p{
+    font-size: 18px;
+    color: #fff;
+    line-height: 1.5;
+    margin-bottom: 50px;
+
+}
+.article .btn{
+    color: #fff;
+    padding: 12px 25px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    text-decoration: wavy;
+    background-color: #f15048;
+}
+.about{
+    padding: 12px 25px;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 100px;
+    color: #eb7620;
+    
+}
+.container1{
+    background-image: url(point.webp);
+    width: 100%;
+    height: 1000px;
+}
+.container3{
+    background-image: url(top11.png);
+    width: 100%;
+}
+.container4{
+    background-image: url(blue.jpg);
+}
+.container5{
+    background-image: url(despi.webp);
+}
+ h2{
+ text-align: center;
+ color: #eb7620;
+ }
+ p{
+    text-align: center;
+    color: #eb7620;
+ }
+ h2{
+    margin-top: px;
+    margin-bottom: px;
+    
+ }
+ .contact{
+    text-decoration: underline;
+ }
+ p{
+    color: #fff;
+    margin-bottom: 10px;
+ }
+ .form action{
+    color: aqua;
+ }
+ footer{
+    float: right;
+    color: aqua;
+}
+.container6{
+    background-image: url(blue.jpg);
+}
+.item1{
+    border-radius: 50%;
+}
+.item2{
+    border-radius: 50%;
+}
